@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>My NBA Game</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#071022">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="My NBA Game">
+<link rel="apple-touch-icon" href="img/icons/icon-180.png">
+<link rel="icon" type="image/png" href="img/icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+<script>
+// 依實際可用的螢幕範圍（扣掉瀏海、瀏覽器工具列）計算縮放比例，旋轉或工具列收合時自動重算
+(function () {
+  var probe;
+  function inset(side) {
+    if (!probe) { probe = document.createElement('div'); probe.style.cssText = 'position:fixed;visibility:hidden;pointer-events:none;padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)'; document.documentElement.appendChild(probe); }
+    return parseFloat(getComputedStyle(probe)[side === 'l' ? 'paddingLeft' : 'paddingRight']) || 0;
+  }
+  function fit() {
+    var vv = window.visualViewport, w = vv ? vv.width : window.innerWidth, h = vv ? vv.height : window.innerHeight;
+    var r = document.documentElement.style, usableW = w - inset('l') - inset('r');
+    r.setProperty('--app-h', h + 'px');
+    r.setProperty('--fs', Math.min(h / 41.2, usableW / 89.2) + 'px');
+  }
+  fit();
+  addEventListener('resize', fit); addEventListener('orientationchange', function () { setTimeout(fit, 250); });
+  if (window.visualViewport) visualViewport.addEventListener('resize', fit);
+  document.addEventListener('DOMContentLoaded', fit);
+})();
+</script>
+</head>
+<body>
+<div id="app"><div class="fatal">讀取中…</div></div>
+<div class="rotate-hint"><b>請將手機橫放</b><small>My NBA Game 以橫向畫面遊玩</small></div>
+<script src="config.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

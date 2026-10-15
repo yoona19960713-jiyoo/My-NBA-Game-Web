@@ -1,0 +1,606 @@
+{
+ "coaches": [
+  {
+   "id": "C-red-auerbach",
+   "name": "Red Auerbach",
+   "tier": "紫",
+   "team": "BOS",
+   "teams": "BOS",
+   "ach": "9 次總冠軍",
+   "style": "moti"
+  },
+  {
+   "id": "C-phil-jackson",
+   "name": "Phil Jackson",
+   "tier": "紫",
+   "team": "CHI",
+   "teams": "CHI／LAL",
+   "ach": "11 次總冠軍",
+   "style": "tri"
+  },
+  {
+   "id": "C-gregg-popovich",
+   "name": "Gregg Popovich",
+   "tier": "紫",
+   "team": "SA",
+   "teams": "SA",
+   "ach": "5 次總冠軍",
+   "style": "rota"
+  },
+  {
+   "id": "C-pat-riley",
+   "name": "Pat Riley",
+   "tier": "紫",
+   "team": "LAL",
+   "teams": "LAL／MIA",
+   "ach": "5 次總冠軍（含 Showtime 湖人）",
+   "style": "run"
+  },
+  {
+   "id": "C-steve-kerr",
+   "name": "Steve Kerr",
+   "tier": "紫",
+   "team": "GS",
+   "teams": "GS",
+   "ach": "4 次總冠軍（2017、2018、2022 在十季範圍內）",
+   "style": "team"
+  },
+  {
+   "id": "C-erik-spoelstra",
+   "name": "Erik Spoelstra",
+   "tier": "紫",
+   "team": "MIA",
+   "teams": "MIA",
+   "ach": "2 次總冠軍",
+   "style": "def"
+  },
+  {
+   "id": "C-chuck-daly",
+   "name": "Chuck Daly",
+   "tier": "紫",
+   "team": "DET",
+   "teams": "DET",
+   "ach": "2 次總冠軍、夢幻一隊總教練",
+   "style": "def"
+  },
+  {
+   "id": "C-red-holzman",
+   "name": "Red Holzman",
+   "tier": "紫",
+   "team": "NY",
+   "teams": "NY",
+   "ach": "2 次總冠軍",
+   "style": "team"
+  },
+  {
+   "id": "C-jerry-sloan",
+   "name": "Jerry Sloan",
+   "tier": "紫",
+   "team": "UTAH",
+   "teams": "UTAH",
+   "ach": "名人堂、單一球隊執教 23 季",
+   "style": "pnr"
+  },
+  {
+   "id": "C-don-nelson",
+   "name": "Don Nelson",
+   "tier": "紫",
+   "team": "MIL",
+   "teams": "MIL／GS／DAL",
+   "ach": "歷史勝場數前段班、Nellie Ball",
+   "style": "run"
+  },
+  {
+   "id": "C-mike-brown",
+   "name": "Mike Brown",
+   "tier": "紅",
+   "team": "NY",
+   "teams": "NY",
+   "ach": "2026 總冠軍、2 次年度最佳教練",
+   "style": "def"
+  },
+  {
+   "id": "C-mark-daigneault",
+   "name": "Mark Daigneault",
+   "tier": "紅",
+   "team": "OKC",
+   "teams": "OKC",
+   "ach": "2025 總冠軍",
+   "style": "def"
+  },
+  {
+   "id": "C-joe-mazzulla",
+   "name": "Joe Mazzulla",
+   "tier": "紅",
+   "team": "BOS",
+   "teams": "BOS",
+   "ach": "2024 總冠軍",
+   "style": "out"
+  },
+  {
+   "id": "C-michael-malone",
+   "name": "Michael Malone",
+   "tier": "紅",
+   "team": "DEN",
+   "teams": "DEN",
+   "ach": "2023 總冠軍",
+   "style": "team"
+  },
+  {
+   "id": "C-mike-budenholzer",
+   "name": "Mike Budenholzer",
+   "tier": "紅",
+   "team": "MIL",
+   "teams": "MIL",
+   "ach": "2021 總冠軍",
+   "style": "def"
+  },
+  {
+   "id": "C-frank-vogel",
+   "name": "Frank Vogel",
+   "tier": "紅",
+   "team": "LAL",
+   "teams": "LAL",
+   "ach": "2020 總冠軍",
+   "style": "def"
+  },
+  {
+   "id": "C-nick-nurse",
+   "name": "Nick Nurse",
+   "tier": "紅",
+   "team": "TOR",
+   "teams": "TOR",
+   "ach": "2019 總冠軍",
+   "style": "tac"
+  },
+  {
+   "id": "C-tyronn-lue",
+   "name": "Tyronn Lue",
+   "tier": "紅",
+   "team": "CLE",
+   "teams": "CLE／LAC",
+   "ach": "2016 總冠軍",
+   "style": "star"
+  },
+  {
+   "id": "C-doc-rivers",
+   "name": "Doc Rivers",
+   "tier": "紅",
+   "team": "BOS",
+   "teams": "BOS",
+   "ach": "2008 總冠軍",
+   "style": "moti"
+  },
+  {
+   "id": "C-rick-carlisle",
+   "name": "Rick Carlisle",
+   "tier": "紅",
+   "team": "DAL",
+   "teams": "DAL",
+   "ach": "2011 總冠軍",
+   "style": "tac"
+  },
+  {
+   "id": "C-larry-brown",
+   "name": "Larry Brown",
+   "tier": "紅",
+   "team": "DET",
+   "teams": "DET",
+   "ach": "2004 總冠軍",
+   "style": "team"
+  },
+  {
+   "id": "C-rudy-tomjanovich",
+   "name": "Rudy Tomjanovich",
+   "tier": "紅",
+   "team": "HOU",
+   "teams": "HOU",
+   "ach": "1994、1995 總冠軍",
+   "style": "moti"
+  },
+  {
+   "id": "C-k-c-jones",
+   "name": "K.C. Jones",
+   "tier": "紅",
+   "team": "BOS",
+   "teams": "BOS",
+   "ach": "1984、1986 總冠軍",
+   "style": "team"
+  },
+  {
+   "id": "C-lenny-wilkens",
+   "name": "Lenny Wilkens",
+   "tier": "紅",
+   "team": "SEA",
+   "teams": "SEA",
+   "ach": "1979 總冠軍、歷史勝場前段班",
+   "style": "rota"
+  },
+  {
+   "id": "C-mike-d-antoni",
+   "name": "Mike D'Antoni",
+   "tier": "紅",
+   "team": "PHX",
+   "teams": "PHX／HOU",
+   "ach": "2 次年度最佳教練、七秒進攻",
+   "style": "run"
+  },
+  {
+   "id": "C-tom-thibodeau",
+   "name": "Tom Thibodeau",
+   "tier": "紅",
+   "team": "CHI",
+   "teams": "CHI／NY",
+   "ach": "2 次年度最佳教練",
+   "style": "def"
+  },
+  {
+   "id": "C-george-karl",
+   "name": "George Karl",
+   "tier": "紅",
+   "team": "SEA",
+   "teams": "SEA／DEN",
+   "ach": "歷史勝場數前段班",
+   "style": "run"
+  },
+  {
+   "id": "C-jason-kidd",
+   "name": "Jason Kidd",
+   "tier": "金",
+   "team": "DAL",
+   "teams": "DAL",
+   "ach": "2024 總冠軍賽",
+   "style": "star"
+  },
+  {
+   "id": "C-kenny-atkinson",
+   "name": "Kenny Atkinson",
+   "tier": "金",
+   "team": "CLE",
+   "teams": "CLE",
+   "ach": "年度最佳教練",
+   "style": "out"
+  },
+  {
+   "id": "C-quin-snyder",
+   "name": "Quin Snyder",
+   "tier": "金",
+   "team": "UTAH",
+   "teams": "UTAH／ATL",
+   "ach": "爵士連年季後賽",
+   "style": "team"
+  },
+  {
+   "id": "C-dwane-casey",
+   "name": "Dwane Casey",
+   "tier": "金",
+   "team": "TOR",
+   "teams": "TOR",
+   "ach": "年度最佳教練",
+   "style": "def"
+  },
+  {
+   "id": "C-brad-stevens",
+   "name": "Brad Stevens",
+   "tier": "金",
+   "team": "BOS",
+   "teams": "BOS",
+   "ach": "多次東區冠軍賽",
+   "style": "tac"
+  },
+  {
+   "id": "C-monty-williams",
+   "name": "Monty Williams",
+   "tier": "金",
+   "team": "PHX",
+   "teams": "PHX",
+   "ach": "年度最佳教練、2021 總冠軍賽",
+   "style": "team"
+  },
+  {
+   "id": "C-billy-donovan",
+   "name": "Billy Donovan",
+   "tier": "金",
+   "team": "OKC",
+   "teams": "OKC／CHI",
+   "ach": "多次季後賽",
+   "style": "rota"
+  },
+  {
+   "id": "C-chris-finch",
+   "name": "Chris Finch",
+   "tier": "金",
+   "team": "MIN",
+   "teams": "MIN",
+   "ach": "西區冠軍賽",
+   "style": "in"
+  },
+  {
+   "id": "C-ime-udoka",
+   "name": "Ime Udoka",
+   "tier": "金",
+   "team": "BOS",
+   "teams": "BOS／HOU",
+   "ach": "2022 總冠軍賽",
+   "style": "def"
+  },
+  {
+   "id": "C-jj-redick",
+   "name": "JJ Redick",
+   "tier": "金",
+   "team": "LAL",
+   "teams": "LAL",
+   "ach": "新世代戰術型",
+   "style": "out"
+  },
+  {
+   "id": "C-jeff-van-gundy",
+   "name": "Jeff Van Gundy",
+   "tier": "金",
+   "team": "NY",
+   "teams": "NY／HOU",
+   "ach": "1999 總冠軍賽",
+   "style": "def"
+  },
+  {
+   "id": "C-stan-van-gundy",
+   "name": "Stan Van Gundy",
+   "tier": "金",
+   "team": "ORL",
+   "teams": "ORL／DET",
+   "ach": "2009 總冠軍賽",
+   "style": "out"
+  },
+  {
+   "id": "C-tex-winter",
+   "name": "Tex Winter",
+   "tier": "金",
+   "team": "CHI",
+   "teams": "CHI／LAL（助理）",
+   "ach": "三角戰術創始者",
+   "style": "tri"
+  }
+ ],
+ "cheers": [
+  {
+   "id": "Q01",
+   "name": "若潼",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "exp",
+   "art": true
+  },
+  {
+   "id": "Q02",
+   "name": "嘎琳",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "luck",
+   "art": true
+  },
+  {
+   "id": "Q03",
+   "name": "壯壯",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "stam",
+   "art": true
+  },
+  {
+   "id": "Q04",
+   "name": "廉世彬",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "coin",
+   "art": true
+  },
+  {
+   "id": "Q05",
+   "name": "禹洙漢",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "decomp",
+   "art": true
+  },
+  {
+   "id": "Q06",
+   "name": "河智媛",
+   "tier": "白金",
+   "squad": "樂天女孩 Rakuten Girls",
+   "skill": "gift",
+   "art": true
+  },
+  {
+   "id": "Q07",
+   "name": "曼容",
+   "tier": "白金",
+   "squad": "Passion Sisters",
+   "skill": "gauge",
+   "art": true
+  },
+  {
+   "id": "Q08",
+   "name": "君白",
+   "tier": "白金",
+   "squad": "Passion Sisters",
+   "skill": "enh",
+   "art": true
+  },
+  {
+   "id": "Q09",
+   "name": "冼迪琦",
+   "tier": "白金",
+   "squad": "Passion Sisters",
+   "skill": "quick",
+   "art": true
+  },
+  {
+   "id": "Q10",
+   "name": "衣宸",
+   "tier": "白金",
+   "squad": "Passion Sisters",
+   "skill": "cap",
+   "art": true
+  },
+  {
+   "id": "Q11",
+   "name": "邊荷律",
+   "tier": "白金",
+   "squad": "Passion Sisters",
+   "skill": "toRec",
+   "art": true
+  },
+  {
+   "id": "Q12",
+   "name": "慈妹",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "discount",
+   "art": true
+  },
+  {
+   "id": "Q13",
+   "name": "秀秀子",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "luck",
+   "art": true
+  },
+  {
+   "id": "Q14",
+   "name": "Jessy",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "gift",
+   "art": true
+  },
+  {
+   "id": "Q15",
+   "name": "潔潔",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "enh",
+   "art": true
+  },
+  {
+   "id": "Q16",
+   "name": "南珉貞",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "coin",
+   "art": true
+  },
+  {
+   "id": "Q17",
+   "name": "李晧禎",
+   "tier": "白金",
+   "squad": "Fubon Angels",
+   "skill": "exp",
+   "art": true
+  },
+  {
+   "id": "Q18",
+   "name": "林襄",
+   "tier": "白金",
+   "squad": "小龍女 Dragon Beauties",
+   "skill": "coin",
+   "art": true
+  },
+  {
+   "id": "Q19",
+   "name": "李多慧",
+   "tier": "白金",
+   "squad": "小龍女 Dragon Beauties",
+   "skill": "gift",
+   "art": true
+  },
+  {
+   "id": "Q20",
+   "name": "權喜原",
+   "tier": "白金",
+   "squad": "小龍女 Dragon Beauties",
+   "skill": "stam",
+   "art": true
+  },
+  {
+   "id": "Q21",
+   "name": "金海莉",
+   "tier": "白金",
+   "squad": "小龍女 Dragon Beauties",
+   "skill": "enh",
+   "art": true
+  },
+  {
+   "id": "Q22",
+   "name": "鄭熙靜",
+   "tier": "白金",
+   "squad": "小龍女 Dragon Beauties",
+   "skill": "gauge",
+   "art": true
+  },
+  {
+   "id": "Q23",
+   "name": "一粒",
+   "tier": "白金",
+   "squad": "Wing Stars",
+   "skill": "cap",
+   "art": true
+  },
+  {
+   "id": "Q24",
+   "name": "安芝儇",
+   "tier": "白金",
+   "squad": "Wing Stars",
+   "skill": "gauge",
+   "art": true
+  },
+  {
+   "id": "Q25",
+   "name": "Mingo",
+   "tier": "白金",
+   "squad": "Wing Stars",
+   "skill": "quick",
+   "art": true
+  },
+  {
+   "id": "Q26",
+   "name": "朴昭映",
+   "tier": "白金",
+   "squad": "Wing Stars",
+   "skill": "decomp",
+   "art": true
+  },
+  {
+   "id": "Q27",
+   "name": "瑟七",
+   "tier": "白金",
+   "squad": "Uni-Girls",
+   "skill": "discount",
+   "art": true
+  },
+  {
+   "id": "Q28",
+   "name": "希美",
+   "tier": "白金",
+   "squad": "Uni-Girls",
+   "skill": "coin",
+   "art": true
+  },
+  {
+   "id": "Q29",
+   "name": "睦那京",
+   "tier": "白金",
+   "squad": "Uni-Girls",
+   "skill": "toRec",
+   "art": true
+  },
+  {
+   "id": "Q30",
+   "name": "三上悠亞",
+   "tier": "白金",
+   "squad": "Uni-Girls",
+   "skill": "luck",
+   "art": true
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+window.GAME_CONFIG = { saveRepo: 'yoona19960713-jiyoo/My-NBA-Game-Save', devHash: '50668c8c2aeb5303672ee2456de7e65c2da6ff60e534ef1211c7c9dbb6204dc3', version: '1.0.140', webUrl: 'https://yoona19960713-jiyoo.github.io/My-NBA-Game-Web/', firebase: { apiKey: 'AIzaSyDm6oAvzL_GRczvQQe0_83enDReA32hqhg', projectId: 'my-nba-game' } };
